@@ -44,7 +44,7 @@ module.exports = function(app) {
       newUserScore += parseInt(newUser.scores[i]);
     }
 
-    console.log('New User Score: ' + newUserScore);
+    // console.log('New User Score: ' + newUserScore);
 
 
     //logic to find the Match//
@@ -60,13 +60,12 @@ module.exports = function(app) {
       diff = Math.abs(score - newUserScore);
       // console.log('diff: ' + diff);
       if (diff < matchingDiff) {
-        score = 0;
         matchingDiff = diff;
         matchingFriend = friends[i];
+        score = 0;
         // console.log(matchingFriend);
       } else {
         score = 0;
-        diff = 0;
       }
     }
     res.json(matchingFriend);

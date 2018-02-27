@@ -195,7 +195,7 @@
 
   <script type="text/javascript">
     $("#submit").on("click", function() {
-      event.preventDefault();
+      // event.preventDefault();
 
       // Form validation
       function validateForm() {
@@ -228,6 +228,8 @@
 
         // AJAX post the data to the friends API. 
         $.post(currentURL + "/api/friends", userData, function(data) {
+          // $("option").val('');
+          // $("input").val('');
 
           console.log(JSON.stringify(userData));
 
