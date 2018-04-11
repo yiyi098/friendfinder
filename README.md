@@ -1,5 +1,7 @@
 # FriendFinder
 
+![friendfinder](./friendfinderpage.png)
+
 ###Overview
 This is an app deployed on Heroku that uses a personality survey to collect a series of scores and compares it to other users' scores to find the best matching friend.
 
