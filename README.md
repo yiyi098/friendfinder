@@ -2,7 +2,7 @@
 
 ![friendfinder](./friendfinderpage.png)
 
-###Overview
+### Overview
 This is an app deployed on Heroku that uses a personality survey to collect a series of scores and compares it to other users' scores to find the best matching friend.
 
 [Heroku link](https://frozen-coast-95001.herokuapp.com/)
